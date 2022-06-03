@@ -48,6 +48,29 @@ body {
   cursor: url("../img/cursor-worm.png"), default;
 }
 
-.gone {
+.gone,
+.hide {
   display: none;
 }
+
+.worm {
+  width: 1660px;
+}
+.worm-container {
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+
+.worm-box {
+  width: 1660px;
+}
+
+/* ============ MEDIA QUERIES ============== */
+/* For small devices */
+/* @media screen and (max-width: 768px) {
+  .bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+} */
